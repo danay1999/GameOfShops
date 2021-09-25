@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function InventoryTab() {
+export default function ShippingTab() {
     return (
         <div className="tab">
-            InventoryTab
+            ShippingTab
         </div>
     );
 }
