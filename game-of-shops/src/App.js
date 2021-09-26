@@ -20,9 +20,10 @@ function App() {
               <img className="pixelated image" src={SaveGame} width='50px'></img>
             </div>
           </Col>
-          <Col xs={10}>
+
+          <Col>
             <div>
-              <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 pills" variant="pills">
+              <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
                 <Tab eventKey="overview" title="Overview">
                   <OverviewTab/>
                 </Tab>
