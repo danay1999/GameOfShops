@@ -1,0 +1,38 @@
+.inv-info{
+    max-width: 100%
+}
+
+.inv-img{
+    flex-basis: 40%
+}
+
+.inv-name{
+    padding-left: 60px;
+}
+
+.inv-quantity{
+    padding-top: 10px;
+    padding-bottom: 0%;
+}
+
+.inv-currency{
+    flex-basis: 40%;
+    padding-bottom: 0%;
+}
+
+.inv-cost{
+    padding-left: 30px;
+    padding-bottom: 0%;
+}
+
+.current-quantity-section{
+    padding: 0%;
+}
+
+/* .inv-current-quantity{
+    flex-basis: 80%;
+}
+
+.buy-button{
+    padding-left: 30px;
+} */
