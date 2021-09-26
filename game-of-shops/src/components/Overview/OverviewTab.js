@@ -16,7 +16,7 @@ export default function OverviewTab() {
             <Container>
                 <Row>
                     <Col>
-                        <div className="store-Info">
+                        <div className="store-info">
                             <div className="image-info">
                                 <img src={CompletedOrders} width='25px'></img>
                             </div>
@@ -24,13 +24,13 @@ export default function OverviewTab() {
                                 Completed Orders:  
                             </div>
                             <div className="image-info">
-                                <img src={InterestImage} width='25px'></img>
+                                <img src={PendingOrders} width='35px'></img>
                             </div>
                             <div className="description-info">                    
                                 Pending Orders:  
                             </div>
                             <div className="image-info">
-                                <img src={PendingOrders} width='35px'></img>
+                                <img src={InterestImage} width='25px'></img>
                             </div>
                             <div className="description-info">                    
                                 Product Interest:  
