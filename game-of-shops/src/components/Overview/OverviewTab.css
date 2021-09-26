@@ -1,7 +1,7 @@
 .store-info{
     margin-right: 2%; 
     margin-left: 3%; 
-    margin-top: 2%; 
+    margin-top: 10%; 
     float:left; 
     width:90%;
     height: 50px;
@@ -19,8 +19,16 @@
 }
 
 .player-info{
-    text-align: center;
-    padding: 2%;
+    margin-top: 15px; 
+    float:up; 
+    width:100%;
+    height: 230px;
+}
+
+.avatar-section{
+    float:up; 
+    height:50%;
+    margin-left: 38%;
 }
 
 .avatar{
@@ -29,18 +37,28 @@
     width: 100px;
 }
 
+.store-name-section{
+    float:up; 
+    text-align: center;
+    height:20%;
+}
+
 .store-name{
     border: 3px solid black;
 }
 
+.currency-section{
+    float:up; 
+    height: 15%;
+    margin-left: 40%;
+}
+
 .money-image-info{
     float:left; 
-    width:12%;
-    height: 50px;
+    width:15%;
 }
 
 .money-description-info{ 
     float:left;
-    width:88%; 
-    height: 50px;
+    width:85%; 
 }

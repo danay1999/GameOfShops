@@ -47,20 +47,21 @@ export default function OverviewTab() {
                     </Col>
                     <Col>
                         <div className="player-info">
-                            <div>
+                            <div className="avatar-section">
                                 <img src={Avatar} className="avatar"></img>
                             </div>
-                            <div>
+                            <div className="store-name-section">
                                 <p className="store-name">Store Name</p>
                             </div>
-                            <div className="money-image-info">
-                                <img src={Currency} width="25px"></img>
-                            </div>
-                            <div className="money-description-info">                    
-                                $100
+                            <div className="currency-section">
+                                <div className="money-image-info">
+                                .<img src={Currency} width="25px"></img>
+                                </div>
+                                <div className="money-description-info">  
+                                    $100                   
+                                </div>
                             </div>
                         </div>
-                        
                     </Col>
                 </Row>
             </Container>
