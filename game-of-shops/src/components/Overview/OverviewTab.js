@@ -55,7 +55,7 @@ export default function OverviewTab() {
                             </div>
                             <div className="currency-section">
                                 <div className="money-image-info">
-                                .<img src={Currency} width="25px"></img>
+                                    .<img src={Currency} width="25px"></img>
                                 </div>
                                 <div className="money-description-info">  
                                     $100                   

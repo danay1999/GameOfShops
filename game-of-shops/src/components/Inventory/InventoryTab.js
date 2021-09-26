@@ -71,7 +71,6 @@ export default function InventoryTab() {
                   <p>{value.name}</p>
                 </div>
               )
-                
             })}
         </div>
     );
