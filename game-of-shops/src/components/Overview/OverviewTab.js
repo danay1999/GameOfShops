@@ -39,7 +39,7 @@ export default function OverviewTab() {
                                 <img src={Views} width='25px'></img>
                             </div>
                             <div className="description-info">                    
-                            Visitors per day  
+                            Visitors per day:   
                             </div>
                         </div>
                     </Col>
