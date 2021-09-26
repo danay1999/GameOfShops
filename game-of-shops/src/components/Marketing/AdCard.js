@@ -6,7 +6,7 @@ import "./AdCard.css";
 export default function AdCard(props) {
     return (
         <div>
-            <Card style={{ width: '15rem' }}>
+            <Card style={{width: '15rem'}} className="adcard">
                 <Card.Body>
                     <Card.Text>
                         <img src={props.image} width="45px"/>

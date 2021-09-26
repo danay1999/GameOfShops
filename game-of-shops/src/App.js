@@ -1,3 +1,4 @@
+import React, { useState, useEffect }from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Tabs, Tab, Container, Col, Row }  from 'react-bootstrap';
@@ -8,10 +9,20 @@ import ShippingTab from './components/Shipping/ShippingTab';
 import CircleShopifyLogo from './images/circle_shopify_glyph_black.png';
 import SaveGame from './images/Save_Game.png';
 import DeleteIcon from './images/Recycle_bin.png';
+import Currency from './images/Currency.png';
 
 function App() {
+
+  useEffect(async () => {
+    await fetch('/').then(res => res.json()).then(data => {
+      console.log(data);
+    });
+  }, []);
+
   return (
     <div className="App">
+      <img src={Currency} width='25px'/>
+      <p>10000</p>
       <Container fluid>
         <Row className="justify-content-md-center">
           <Col xs={1} md={0.5} >
