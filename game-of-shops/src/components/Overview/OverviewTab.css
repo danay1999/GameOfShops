@@ -17,5 +17,31 @@
     float:left;
     width:88%; 
     height: 50px;
-    display: inline-block;  
+}
+
+.player-info{
+    text-align: center;
+    padding: 2%;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 3px solid black;
+    width: 100px;
+}
+
+.store-name{
+    border: 3px solid black;
+}
+
+.money-image-info{
+    float:left; 
+    width:12%;
+    height: 50px;
+}
+
+.money-description-info{ 
+    float:left;
+    width:88%; 
+    height: 50px;
 }
