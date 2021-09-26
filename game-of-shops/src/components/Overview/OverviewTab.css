@@ -1,8 +1,21 @@
-.categories{
-    right: 20px;
+.store-Info{
+    margin-right: 2%; 
+    margin-left: 3%; 
+    margin-top: 2%; 
+    float:left; 
+    width:90%;
+    height: 50px;
 }
 
-.imagecategories{
-    position: absolute;
-    /* left: 0px; */
+.image-info{
+    float:left; 
+    width:12%;
+    height: 50px;
+}
+
+.description-info{ 
+    float:left;
+    width:88%; 
+    height: 50px;
+    display: inline-block;  
 }
