@@ -14,5 +14,4 @@ print(db['Overview'])
 
 @app.route('/')
 def main():
-    overview = db['Overview'].find()
-    return overview
+    return db['Overview'].find()
